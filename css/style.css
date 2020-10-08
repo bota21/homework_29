@@ -1,0 +1,113 @@
+body {
+  background: url(../img/bg.png);
+  font-family: arial, sans-serif;
+}
+
+.wrapper {
+  width: 1024px;
+  padding: 50px 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  margin-bottom: 50px;
+  cursor: pointer;
+  border-color: transparent;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+a:focus {
+  outline: none;
+}
+
+.buy-now {
+  width: 88px;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  background: url(../img/apple-icon.png) 11px 4px no-repeat, linear-gradient(#2ea2fa, #0073cc);
+  font-size: 11px;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(1, 69, 119, 0.4);
+  border-radius: 30px;
+  box-shadow: 0 1px 4px #000000, inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  border: 1px solid #006bbe;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.click-here {
+  width: 106px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  text-shadow: 0 1px 1px #ffffff;
+  color: #b42825;
+  border-radius: 2px;
+  border: 1px solid #bb524f;
+  font-size: 13px;
+  font-weight: bold;
+  background: linear-gradient(#e37875, #cf4442);
+  box-shadow: 0 1px 1px 1px #373737;
+  display: flex;
+  justify-content: center;
+}
+
+.facebook {
+  width: 97px;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 5px #000000, inset 0 1px 0 rgba(255, 255, 255, 0.16);
+  text-shadow: 0 1px 0 #000;
+  border: 1px solid #000000;
+  background: url(../img/facebook-icon.png) 7px 1px no-repeat, linear-gradient(to right, rgba(70, 108, 172, 1) 0%, rgba(34, 71, 142, 1) 27.5%, rgba(0, 0, 0, 1) 29%, rgba(0, 0, 0, 1) 29.5%, rgba(56, 56, 56, 1) 30%, rgba(56, 56, 56, 1) 100%);
+  color: #fff;
+  font-size: 11px;
+  border-radius: 4px;
+  border: 1px solid #000;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.home {
+  width: 176px;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  box-sizing: border-box;
+  background: url(../img/home-icon.png) 90% no-repeat, linear-gradient(to right, rgba(50, 87, 188, 1) 0%, rgba(50, 87, 188, 1) 72%, rgba(44, 81, 183, 1) 72%);
+  box-shadow: 0 3px 1px #25418d;
+  text-shadow: 1px 1px 0 #25418d;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.watch-other {
+  width: 313px;
+  height: 58px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.75), inset 0 0 1px #fff;
+  text-shadow: 0 -1px 0 #042439;
+  background: url(../img/array-icon.png) 253px no-repeat, linear-gradient(to top, #1b8ad2 0%, #1580c3 25%, #0776be 50%, #0668a4 100%);
+  border-radius: 30px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding-left: 59px;
+  color: #fff;
+  font-size: 26px;
+  border-style: none;
+}
